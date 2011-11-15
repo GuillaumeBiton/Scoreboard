@@ -24,6 +24,7 @@ var TeamView = Backbone.View.extend({
 	
 	changeName: function(){
 		var name = prompt('Change team name :', this.model.get('name'));
+		if(!name) name = this.model.get('name');
 		this.model.set({name: name});
 	}
 });
