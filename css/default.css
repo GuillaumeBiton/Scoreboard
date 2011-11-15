@@ -1,0 +1,22 @@
+html, body {
+	background: #eee;
+}
+body {
+	padding: 20px;
+}
+.container {
+	width: 100%;
+}
+.team {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.name {
+	font-size: 24pt;
+	padding-bottom: 20px;
+}
+.score {
+	font-size: 48pt;
+	color: green;
+}
