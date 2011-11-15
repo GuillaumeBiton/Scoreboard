@@ -1,4 +1,9 @@
 (function(){
+	window.GameEvent = Backbone.Model.extend({});
+	var GameLog = Backbone.Collection.extend({ model: GameEvent });
+	
+	window.gameLog = new GameLog();
+	
 	window.home = new Team({name: 'home'});
 	window.guest = new Team({name: 'guest'});
 	

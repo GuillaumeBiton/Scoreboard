@@ -20,6 +20,8 @@ var TeamView = Backbone.View.extend({
 	
 	score: function(){
 		this.model.set({ point: this.model.get('point')+1});
+		var event = new GameEvent({'team': this.model.get('name'), 'event': 'score', 'args' : 1});
+		gameLog.add(event);
 	},
 	
 	changeName: function(){
