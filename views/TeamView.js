@@ -5,7 +5,7 @@ var TeamView = Backbone.View.extend({
 	
 	events: {
 		"click .score": "score",
-		"dblclick .name": "changeName"
+		"click .name": "changeName"
 	},
 	
 	initialize: function(){
