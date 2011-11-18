@@ -5,7 +5,8 @@ body {
 	padding: 20px;
 }
 .container {
-	width: 100%;
+	max-width: 480px;
+	margin: 0px auto;
 }
 .team {
 	width: 50%;
