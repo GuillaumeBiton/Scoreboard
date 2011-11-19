@@ -1,7 +1,7 @@
 var TeamView = Backbone.View.extend({
 	tagName: "div",
 	
-	template: _.template("<div id='name' class='name'><%= name %></div><div id='score 'class='score'><%= point %></div>"),
+	template: _.template("<div id='name' class='name'><%= name %> - <span class='set'><%= set %></span></div><div id='score 'class='score'><%= point %></div>"),
 	
 	events: {
 		"click .score": "score",
