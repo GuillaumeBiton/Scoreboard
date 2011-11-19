@@ -10,6 +10,11 @@
 	window.v1 = new TeamView({model: home, el: $('#home')});
 	window.v2 = new TeamView({model: guest, el: $('#guest')});
 	
+	var logView = Backbone.View.extend({
+		el: $('#log'),
+		
+	});
+	
 	v1.render();
 	v2.render();
 })();

@@ -21,3 +21,6 @@ body {
 	font-size: 48pt;
 	color: green;
 }
+input {
+	text-align: center;
+}
